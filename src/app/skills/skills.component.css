@@ -18,13 +18,13 @@ h2 {
 .pagination>li>a {
   border-radius: 50% !important;
   margin: 0 5px;
-  color: rgb(65, 65, 204);
+  color: rgb(84, 150, 213);
   border-color: gray;
 }
 
 .pagination>.active>a {
   color: white;
-  background-color: rgb(97, 116, 226);
+  background-color: rgb(84, 150, 213);
 }
 .progress-bar {
   width: 0;
