@@ -28,8 +28,9 @@ body{
 	background-color: #293132;
   text-align: center;
   padding-top: 70pt;
+  padding-bottom: 20pt;
 	position: relative;
-	animation: slideColor 10s forwards infinite;
+	animation: slideColor 8s forwards infinite;
 }
 
 .caption{
@@ -38,9 +39,10 @@ body{
 	color: rgb(8, 8, 8);
 	position: relative;
 	top: 15%;
-	transform: translateY(-60%);
+	transform: translateY(-70%);
 	/*text-shadow: 0px 5px 5px rgba(0,0,0,.25);*/
-	margin-left: -25%;
+  margin-left: -48%;
+  margin-right: -10%;
 }
 
 .text-box{
@@ -59,15 +61,15 @@ body{
 }
 
 .text-box div:nth-child(1){
-	animation: rollDown 10s forwards infinite;
+	animation: rollDown 8s forwards infinite;
 }
 
 .text-box div:nth-child(2){
-	animation: rollDown2 10s forwards infinite;
+	animation: rollDown2 8s forwards infinite;
 }
 
 .text-box div:nth-child(3){
-	animation: rollDown3 10s forwards infinite;
+	animation: rollDown3 8s forwards infinite;
 }
 
 @keyframes rollDown {

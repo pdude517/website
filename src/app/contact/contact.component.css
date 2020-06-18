@@ -6,10 +6,11 @@ h1 {
   font-size: 32pt;;
 }
 
+
 .box {
     box-sizing: border-box;
     width: 30%;
-    height: 20%;
+    height: 3%;
     position: relative;
     background-color: rgb(104, 187, 243);
     margin:25px;
@@ -28,7 +29,8 @@ h1 {
 }
 .box p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18pt;
+  font-weight: 60;
+  font-size: 2.9vw;
   text-align: center;
 }
 
