@@ -1,0 +1,52 @@
+.container2 {
+  padding-top: 0.1%;
+}
+
+.header {
+  margin: 3rem;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 36pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagination>li>a {
+  border-radius: 50% !important;
+  margin: 0 5px;
+  color: rgb(204, 65, 65);
+  border-color: gray;
+}
+
+.pagination>.active>a {
+  color: white;
+  background-color: rgb(226, 97, 97);
+}
+.progress-bar {
+  width: 0;
+  animation: progress 1.85s ease-out forwards;
+}
+.progress-bar .title {
+  opacity: 0;
+  animation: show 0.8s forwards ease-in-out 0.75s;
+  font-size: 15pt;
+}
+@keyframes progress {
+  from {
+    width: 0;
+ }
+  to {
+    width: 100%;
+ }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+ }
+  to {
+    opacity: 1;
+ }
+}
+
+

@@ -1,0 +1,65 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<app-header></app-header>
+
+<!--Graph for primary skills-->
+<div class="container" style="width: 500px; margin: 50px auto">
+  <div class="header">
+    <h2>Knowledge of Software Development Tools</h2>
+  </div>
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="max-width: 94%; background-color: #f8fa6f;">
+        <span class="title">Visual Studio</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="max-width: 90%; background-color: #e9e75e;">
+        <span class="title">AngularJS</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="max-width: 90%; background-color: #ddd341;">
+        <span class="title">Excel</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%; background-color: #c5c330;">
+        <span class="title">Linux</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="max-width: 80%; background-color: #bdc016;">
+        <span class="title">Git and Github</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%; background-color: #a2a504;">
+        <span class="title">Bootstrap</span>
+      </div>
+    </div>
+
+    <div class="progress" style="height: 2.5rem; margin-bottom: 1.5rem;">
+      <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="max-width: 65%; background-color: #929006;">
+        <span class="title">PostgreSQL</span>
+      </div>
+    </div>
+
+  </div>
+
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" routerLink="/skills" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" routerLink="/code-skills" href="#">2</a></li>
+      <li class="page-item active"><a class="page-link" routerLink="/sd-tools" href="#">3</a></li>
+    </ul>
+  </nav>
+
+
+      <router-outlet></router-outlet>
+
