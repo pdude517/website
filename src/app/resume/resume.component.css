@@ -1,0 +1,20 @@
+pdf-viewer {
+  padding-top: 5%;
+  display: block;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+  pdf-viewer {
+    padding-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  pdf-viewer {
+    width: 100%;
+  }
+}
+
