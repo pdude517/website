@@ -11,6 +11,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { CodeSkillsComponent } from './code-skills/code-skills.component';
 import { SdToolsComponent } from './sd-tools/sd-tools.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { SdToolsComponent } from './sd-tools/sd-tools.component';
     AboutMeComponent,
     ContactComponent,
     CodeSkillsComponent,
-    SdToolsComponent
+    SdToolsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
