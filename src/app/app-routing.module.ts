@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { CodeSkillsComponent } from './code-skills/code-skills.component';
 import { SdToolsComponent } from './sd-tools/sd-tools.component';
 import { ContactComponent } from './contact/contact.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -14,10 +15,13 @@ const routes: Routes = [
   {path: 'skills', component: SkillsComponent},
   {path: 'code-skills', component: CodeSkillsComponent},
   {path: 'sd-tools', component: SdToolsComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path: 'resume', component: ResumeComponent}
 ];
 
 @NgModule({
+  declarations: [
+  ],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
